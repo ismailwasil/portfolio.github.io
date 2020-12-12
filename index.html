@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Portfolio Baru Ismail</title>
+  </head>
+  <body class="mt-5"> <!-- mt-5 untuk memberi margin top sebesar 5  sedang pt untuk padding top-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">  <!-- fixed-top untuk posisi navbar tidak berubah di atas -->
+  <div class="container">
+    <a class="navbar-brand " href="#">Ismail</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#jumbotron">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#contact" tabindex="-1">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <!-- h1, h2, dan seterusnya menunjukkan ukuran font, 1 terbesar sampai kecil seterusnya -->
+<section id="jumbotron" class="jumbotron bg-light pb-4">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center mb-5 pt-5">
+      <img src="img/ismail.jpg" width="25%" class="rounded-circle img-thumbnail"> <!-- width="..%"  agar gambarnya responsif dengan ukuran browser dan class="rounded-circle img-thumbnail" untuk gambar jadi lingkaran dan ada border -->
+      <h1 class="display-4 text-decoration-underline">Ismail</h1>
+      <p class="lead">Graphics Designer</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- section id class digunakan agar fungsi di dalamnya bisa dipanggil oleh link, bisa pakek javascript dll -->
+
+<section id="about" class="about pb-4"> 
+  <div class="container">
+    <div class="row mb-4 pt-4">
+      <div class="col text-center">
+        <h2>About</h2>  
+      </div>
+    </div>
+          <!-- justify-content-center = berapapun kolom yang dipakai maka akan dibagi rata di tengah -->
+          <!-- col-md-5 = colom yang dipakai hanya 5 dari 12 default untuk ukuran browser medium -->
+    <div class="row justify-content-center">
+      <div class="col-md-5 text-end">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. </p>
+      </div>
+      <div class="col-md-5 text-start">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio bg-light pb-4">  <!-- bg-light untuk mewarnai background -->
+  <div class="container">
+    <div class="row mb-4 pt-4">
+      <div class="col text-center">
+        <h2>Portfolio</h2>
+      </div>
+    </div>
+    
+    <div class="row mb-4">
+      <div class="col-md">  <!-- -md digunakan agar responsif ketika layar diperkecil -->
+        <div class="card">
+          <img src="img/thumbs/a.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">  
+        <div class="card">
+          <img src="img/thumbs/b.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img src="img/thumbs/c.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img src="img/thumbs/d.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md">
+        <div class="card">
+          <img src="img/thumbs/a.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img src="img/thumbs/b.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img src="img/thumbs/f.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card">
+          <img src="img/thumbs/e.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="contact mb-5">
+  <div class="container">
+    <div class="row pt-4 mb-4">
+      <div class="col text-center">
+        <h2>Contact Us</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-4">
+
+        <!-- contact di link kan ke WA -->
+        <a href="https://api.whatsapp.com/send?phone=62081913333320&text=%D8%A7%D9%8E%D9%84%D8%B3%D9%91%D9%8E%D9%84%D9%8E%D8%A7%D9%85%D9%8F%20%D8%B9%D9%8E%D9%84%D9%8E%D9%8A%D9%92%D9%83%D9%8F%D9%85%D9%92%20%D9%88%D9%8E%D8%B1%D9%8E%D8%AD%D9%92%D9%85%D9%8E%D8%A9%D9%8F%20%D8%A7%D9%84%D9%84%D9%87%D9%90%20%D9%88%D9%8E%D8%A8%D9%8E%D8%B1%D9%8E%D9%83%D9%8E%D8%A7%D8%AA%D9%8F%D9%87">
+          <div class="card text-white bg-primary mb-3  text-center btn"> <!-- bg-primary = background biru -->
+            <div class="card-body">
+              <h5 class="card-title">Contact Us</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor.</p>
+            </div>
+          </div>
+        </a>
+
+        <ul class="list-group">
+          <li class="list-group-item"><h1>Location</h1></li>
+          <li class="list-group-item">My Office</li>
+          <li class="list-group-item">Jl. Kramat II, Sampang, Madura</li>
+          <li class="list-group-item">West Java, Indonesia</li>
+        </ul>
+
+      </div>
+
+      <div class="col-lg-6">
+        
+        <div class="mb-3">
+          <label for="nama">Nama</label>
+          <input type="text" class="form-control" id="nama" placeholder="Tuliskan nama...">
+        </div>
+        <div class="mb-3">
+          <label for="telp">Telepon</label>
+          <input type="text" class="form-control" id="telp" placeholder="No. telepon...">
+        </div>
+        <div class="mb-3">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="email" placeholder="Alamat email...">
+        </div>
+        <div class="mb-3">
+          <label for="pesan">Pesan</label>
+          <textarea name="pesan" id="pesan" class="form-control" placeholder="Tuliskan pesan..."></textarea>
+        </div>
+        <div class="mb-3">
+          <button type="button" class="btn btn-primary">Kirim</button>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<footer class="bg-dark text-white">
+  <div class="container">
+    <div class="row text-center pt-3">
+      <div class="col">
+        <p>&copy; Copyright 2020 | built by <a href="http://instagram.com/ismail_ibn_wasil">Ismail ibn Wasil</a> </p>
+      </div>
+    </div>
+    <div class="row text-center pb-3">
+      <div class="col">
+        <a href="https://www.youtube.com/channel/UC6Qp1mWkqPhCtLJlNJ4dPpA" class="btn btn-danger">Subscribe to Youtube</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.esm.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
